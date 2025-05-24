@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+}
+
+.app-container {
+  text-align: center;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-form, .dashboard {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  margin: 50px auto;
+  width: 320px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+form input, form select, form button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+form button {
+  background: #00c6ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #005bea;
+}
+.register-page {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: rgba(23, 152, 216, 0.867);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.register-page h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.register-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.register-page input,
+.register-page select {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.register-page input:focus,
+.register-page select:focus {
+  border-color: #66a6ff;
+}
+
+
+.register-page button {
+  background-color: #66a6ff;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.register-page button:hover {
+  background-color: #5593e6;
+}
